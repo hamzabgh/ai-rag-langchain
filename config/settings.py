@@ -14,3 +14,14 @@ LLM_MODEL = "phi"
 
 COLLECTION_NAME = "restaurant_reviews"
 SEARCH_KWARGS = {"k": 5}
+
+
+# Streamlit UI configurations
+UI = {
+    "page_title": "🍕 Pizza Review Assistant",
+    "page_icon": "🍕",
+    "layout": "wide",
+    "initial_sidebar_state": "expanded"
+}
+
+MAX_HISTORY = 50 
